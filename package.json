@@ -1,0 +1,24 @@
+{
+  "name": "homework18mongo",
+  "version": "1.0.0",
+  "description": "AS A social media startup I WANT an API for my social network that uses a NoSQL database SO THAT my website can handle large amounts of unstructured data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeBosz/Homework18MONGO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeBosz/Homework18MONGO/issues"
+  },
+  "homepage": "https://github.com/JoeBosz/Homework18MONGO#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  }
+}
