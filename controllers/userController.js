@@ -61,15 +61,6 @@ const userController = {
             });
       }
     
-    //   addThought(req, res) {
-    //     console.log('You are adding an assignment');
-    //     console.log(req.body)
-    //     Student.findOneAndUpdate(
-    //       { _id: req.params.userId },
-    //       { $addToSet: { assignments: req.body } },
-    //       { runValidators: true, new: true }
-    //     )
-    //   },
 
 }
 
