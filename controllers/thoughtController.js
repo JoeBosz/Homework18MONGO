@@ -39,7 +39,21 @@ const thoughtController = {
                 console.log(err);
                 res.status(400).json(err);
             })
-    }
+    },
+
+    deleteThought(req, res) {
+        Thought.findOneAndDelete({ _id: req.params.thoughtId })
+            .then(thought => {
+                if (!thought) {
+                    return res.status(404).json({ message: 'No thought found with this id!' });
+                }
+                res.status(200).json(thought);
+            })
+            .catch(err => {
+                console.log(err);
+                res.status(400).json(err);
+            });
+    },
 
 }
 
